@@ -10,5 +10,5 @@ data class Barang(
     @ColumnInfo(name = "namaBarang") val namaBarang: String?,
     @ColumnInfo(name = "jenis") val jenis: String?,
     @ColumnInfo(name = "ukuran") val ukuran: String?,
-    @ColumnInfo(name = "harga") val harga: String?
+    @ColumnInfo(name = "hargaJual") val hargaJual: Int?
 )

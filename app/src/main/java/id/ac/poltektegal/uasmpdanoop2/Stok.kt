@@ -9,6 +9,5 @@ data class Stok(
     @PrimaryKey val kode: Int,
     @ColumnInfo(name = "kodeBarang") val kodeBarang: Int?,
     @ColumnInfo(name = "namaBarang") val namaBarang: String?,
-    @ColumnInfo(name = "jenis") val jenis: String?,
     @ColumnInfo(name = "jumlahStok") val jumlahStok: Int?
 )

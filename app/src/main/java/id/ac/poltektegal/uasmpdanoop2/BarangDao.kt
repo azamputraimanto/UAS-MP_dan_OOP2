@@ -15,7 +15,7 @@ interface BarangDao {
 
     @Query("SELECT * FROM barang WHERE namaBarang LIKE :namaBarang AND " +
             "jenis LIKE :jenis LIMIT 1")
-    fun findByName(namaBarang: String, jenis: String, ukuran: String, harga: String): Barang
+    fun findByName(namaBarang: String, jenis: String, ukuran: String, hargaJual: String): Barang
 
     @Insert
     fun insertAll(vararg barang: Barang)

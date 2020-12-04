@@ -15,7 +15,7 @@ interface StokDao {
 
     @Query("SELECT * FROM stok WHERE kodeBarang LIKE :kodeBarang AND " +
             "jumlahStok LIKE :jumlahStok LIMIT 1")
-    fun findByName(kodeBarang: Int, namaBarang: String, jenis: String, jumlahStok: Int): Barang
+    fun findByName(kodeBarang: Int, namaBarang: String, jumlahStok: Int): Barang
 
     @Insert
     fun insertAll(vararg stok: Stok)
