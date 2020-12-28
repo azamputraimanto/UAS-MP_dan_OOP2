@@ -20,57 +20,69 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/nomerInduk_text"
+        android:id="@+id/kodeAsatid_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:text="0352365"
+        android:text="00452146"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/id_text"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/namaSantri_text"
+        android:id="@+id/namaAsatid_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:text="Azam"
+        android:text="Wiwin"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nomerInduk_text"
+        app:layout_constraintStart_toEndOf="@+id/kodeAsatid_text"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tanggalLahir_text"
+        android:id="@+id/jenisKelamin_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:text="Pemalang, 30 Januari 2000"
+        android:text="Perempuan"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/namaSantri_text"
+        app:layout_constraintStart_toEndOf="@+id/namaAsatid_text"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/asal_text"
+        android:id="@+id/StafPengajar_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:text="Pemalang"
+        android:text="Mutholaah"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tanggalLahir_text"
+        app:layout_constraintStart_toEndOf="@+id/jenisKelamin_text"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/alamat_text"
+        android:id="@+id/TahunPengabdian_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:text="Pelutan"
+        android:text="2022-2024"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/asal_text"
+        app:layout_constraintStart_toEndOf="@+id/StafPengajar_text"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/AsalPengabdian_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="Gontor"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/TahunPengabdian_text"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
