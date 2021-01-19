@@ -7,7 +7,13 @@ import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import id.ac.poltektegal.uasmpdanoop2.R
 import id.ac.poltektegal.uasmpdanoop2.model.Asatid
+<<<<<<< HEAD
+import kotlinx.android.synthetic.main.custom_row.view.*
 import kotlinx.android.synthetic.main.custom_row_asatid.view.*
+import kotlinx.android.synthetic.main.custom_row_asatid.view.id_text
+=======
+import kotlinx.android.synthetic.main.custom_row_asatid.view.*
+>>>>>>> 4efe68ea3f48dd1d894d905eeac682cb8c06567d
 
 class ListAdapterAsatid: RecyclerView.Adapter<ListAdapterAsatid.MyViewHolder>() {
 

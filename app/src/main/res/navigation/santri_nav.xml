@@ -3,7 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/santri_nav"
+<<<<<<< HEAD
+    app:startDestination="@id/Home">
+=======
     app:startDestination="@id/listFragmentAsatid">
+>>>>>>> 4efe68ea3f48dd1d894d905eeac682cb8c06567d
 
     <fragment
         android:id="@+id/listFragment"
@@ -18,7 +22,11 @@
             app:destination="@id/updateFragment" />
         <action
             android:id="@+id/action_listFragment_to_home2"
+<<<<<<< HEAD
+            app:destination="@id/Home" />
+=======
             app:destination="@id/home2" />
+>>>>>>> 4efe68ea3f48dd1d894d905eeac682cb8c06567d
     </fragment>
 
 
@@ -60,7 +68,11 @@
             app:destination="@id/updateFragmentAsatid" />
         <action
             android:id="@+id/action_listFragmentAsatid_to_home2"
+<<<<<<< HEAD
+            app:destination="@id/Home" />
+=======
             app:destination="@id/home2" />
+>>>>>>> 4efe68ea3f48dd1d894d905eeac682cb8c06567d
     </fragment>
 
 
@@ -88,8 +100,13 @@
             app:argType="id.ac.poltektegal.uasmpdanoop2.model.Asatid" />
     </fragment>
     <fragment
+<<<<<<< HEAD
+        android:id="@+id/Home"
+        android:name="id.ac.poltektegal.uasmpdanoop2.fragments.list.Home"
+=======
         android:id="@+id/home2"
         android:name="id.ac.poltektegal.uasmpdanoop2.Home"
+>>>>>>> 4efe68ea3f48dd1d894d905eeac682cb8c06567d
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -98,5 +115,14 @@
         <action
             android:id="@+id/action_home2_to_listFragmentAsatid"
             app:destination="@id/listFragmentAsatid" />
+<<<<<<< HEAD
+        <argument
+            android:name="Asatid"
+            app:argType="id.ac.poltektegal.uasmpdanoop2.model.Asatid" />
+        <argument
+            android:name="Santri"
+            app:argType="id.ac.poltektegal.uasmpdanoop2.model.Santri" />
+=======
+>>>>>>> 4efe68ea3f48dd1d894d905eeac682cb8c06567d
     </fragment>
 </navigation>

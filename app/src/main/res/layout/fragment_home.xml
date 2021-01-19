@@ -4,6 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".fragments.list.Home">
+
+    <Button
+        android:id="@+id/btn_azam"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="404dp"
+        android:text="Button Azam"
+        app:layout_constraintBottom_toTopOf="@+id/btn_wiwin"
+=======
     tools:context=".Home">
 
     <Button
@@ -12,6 +25,7 @@
         android:layout_height="70dp"
         android:text="Button"
         app:layout_constraintBottom_toTopOf="@+id/button2"
+>>>>>>> 4efe68ea3f48dd1d894d905eeac682cb8c06567d
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,10 +33,17 @@
         app:layout_constraintVertical_bias="0.981" />
 
     <Button
+<<<<<<< HEAD
+        android:id="@+id/btn_wiwin"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="Button Wiwin"
+=======
         android:id="@+id/button2"
         android:layout_width="250dp"
         android:layout_height="70dp"
         android:text="Button"
+>>>>>>> 4efe68ea3f48dd1d894d905eeac682cb8c06567d
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -42,5 +63,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
+        app:layout_constraintTop_toBottomOf="@+id/btn_wiwin" />
+
+=======
         app:layout_constraintTop_toBottomOf="@+id/button2" />
+>>>>>>> 4efe68ea3f48dd1d894d905eeac682cb8c06567d
 </androidx.constraintlayout.widget.ConstraintLayout>
