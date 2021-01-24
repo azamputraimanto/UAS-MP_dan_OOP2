@@ -1,12 +1,6 @@
-# UAS-MP_dan_OOP2
-# Kelompok
-18090011 Azam Putra Imanto - 5C
+# OOP2
+Fauziah Nurzaerina Eriyadi - 18090095 - 5D
+Rina Listiana - 18090090 - 5D
 
-18090030 - Wiwin Nur Kholifah - 5C
-
-- Disini saya membuat tabel data Santri di tabel data santri terdapat Data-Data para santi yang berasal dari berbagai daerah
-- Membuat Menu Update
-- Membuat menu delete
-- dan penyelasaian halaman utama
-
-
+- Database menggunakan Room
+- Database barang (Album)

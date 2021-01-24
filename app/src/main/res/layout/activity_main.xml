@@ -6,16 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <fragment
-        android:id="@+id/fragment"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:defaultNavHost="true"
+    <Button
+        android:id="@+id/btn_asatid"
+        android:layout_width="217dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="436dp"
+        android:layout_marginBottom="10dp"
+        android:text="Asatid"
+        app:layout_constraintBottom_toTopOf="@+id/btn_santri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_santri"
+        android:layout_width="223dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="150dp"
+        android:text="Santri"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/santri_nav" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_asatid"
+        app:layout_constraintVertical_bias="0.157" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
